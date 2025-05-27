@@ -1,0 +1,65 @@
+body{
+    /*propiedad que pone el texto en la mitad*/
+    text-align: center;
+}
+
+#imagen_torre_gamer{
+    /*Propiedad que le da el ancho a la imagen*/
+    width: 100%;
+}
+
+.h1yp{
+    color: rgb(255, 255, 255);
+
+    /*Propiedad para darle el tipo de letra a mis textos*/
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#targeta{
+
+
+    background-color: rgb(61, 61, 69);
+    border: 5px solid rgb(39, 159, 93);
+
+    /*Propiedad para separar el contenido de el contenedor*/
+    padding: 10px;
+
+    /*se utiliza para definir el espacio exterior alrededor de un elemento*/
+    margin: 200px auto;
+
+    width: 250px;
+
+    /*Esta propiedad sirve para redondear las esquinas de un elemento*/
+    border-radius: 50px;
+
+    text-align: center;
+
+    /*Esta propiedad se utiliza para añadir sombras a los elementos del documento*/
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 3);
+
+    /*Esta propiedad sirve para ponerle el tiempo a la trasnsform:hover*/
+    transition: 1.0s;
+}
+
+#targeta:hover{
+    /*Aqui ponemos una trasicion a la targeta con scale*/
+    transform: scale(1.3);
+}
+
+.precio{
+    color: rgb(255, 0, 0);
+    
+}
+
+button{
+    background-color: rgb(39, 159, 93);
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: rgb(22, 0, 219);
+}
+
+
+
