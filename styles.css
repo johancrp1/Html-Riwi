@@ -89,11 +89,11 @@ h1{
 
 @keyframes acelerate{
     from{
-        transform: translatex(0px);
+        transform: translatex(0%);
     }
 
     to{
-        transform: translateX(700px);
+        transform: translateX(180%);
     }
 }
 
